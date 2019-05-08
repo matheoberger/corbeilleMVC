@@ -28,5 +28,5 @@ public interface IMobile {
 
     void setDirection(Direction direction);
 
-    void setDogFlightModel(DogFlightModel dogFlightModel);
+    void setDogFlightModel(IDogFlightModel dogFlightModel);
 }
