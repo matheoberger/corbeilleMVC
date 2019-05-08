@@ -12,6 +12,11 @@ public class Position {
         this.setMaxY(maxY);
     }
 
+    public Position(final Position position) {
+        this.setX(position.getX());
+        this.setY(position.getY());
+    }
+
     public double getX() {
         return this.x;
     }
